@@ -38,7 +38,7 @@ out/
 *.zip
 *.tar.gz
 *.rar
-
+MobileBankApiTest
 ### Exclusions ###
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
