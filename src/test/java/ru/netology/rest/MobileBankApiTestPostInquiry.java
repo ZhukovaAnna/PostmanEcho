@@ -11,6 +11,7 @@ public class MobileBankApiTestPostInquiry {
     void shouldPostInquiryPut(){
         given()
                 .baseUri("https://postman-echo.com")
+                .header("Content-Type", "text/plain; charset=UTF-8")
                 .body("Иванов") // отправляемые данные (заголовки и query можно выставлять аналогично)
 // Выполняемые действия
                 .when()
